@@ -12,6 +12,8 @@ function Products() {
             <List />
         </main>
     )
+
 }
+
 
 export default Products;
