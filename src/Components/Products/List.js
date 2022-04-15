@@ -7,13 +7,12 @@ import AllProducts from "../../AllProducts.json"
 const Ul = styled.ul`
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    top: 150px;
     justify-content: center;
     gap: 25px;
     width: 90%;
     margin: 0px auto;
     padding-bottom: 200px;
+    margin-top: 70px;
 `
 
 const Li = styled.li`
@@ -22,9 +21,12 @@ const Li = styled.li`
     height: 400px;
     width: 400px;
     cursor: pointer;
-    /* box-shadow: 0px 0px 3px 0.6px rgb(139, 139, 139); */
     border-radius: 5px;
-    transition: 100ms;
+    transition: 120ms;
+
+    &:hover {
+        transform: scale(1.06)
+    }
 `
 
 const Img = styled.img`
@@ -38,18 +40,24 @@ const Name = styled.h3`
     font-size: 1.8em;
 `
 
+const Text = styled.p`
+    font-size: 1.3em
+`
+
 function List() {
     let navigate = useNavigate()
 
     return (
         <Ul>
-            {AllProducts.map(product => <Li onClick={() => navigate("/product/" + product.url)}>
-                <Img src={`media/models/${product.url}/image-1-large.jpg`} />
-                <Name>{product.name}</Name>
-                <p>{product.size}</p>
-                <p>{product.parkingSpaces}</p>
-                <p>{product.avhengig}</p>
-            </Li>)}
+            {AllProducts.map(product =>
+                <Li onClick={() => navigate("/product/" + product.url)}>
+                    <Img src={`media/models/${product.url}/image-1-large.jpg`} />
+                    <Name>{product.name}</Name>
+                    <Text>{product.size}</Text>
+                    <Text>{product.parkingSpaces}</Text>
+                    <Text>{product.avhengig}</Text>
+                </Li>
+            )}
         </Ul>
     )
 }

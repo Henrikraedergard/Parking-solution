@@ -1,0 +1,51 @@
+[
+    {
+        "address": "Vardeveien 55b",
+        "year": 2019,
+        "system": "Sublift",
+        "antall": 2,
+        "url": "vardeveien-55-b",
+        "parkingSpaces": 4
+    },
+    {
+        "address": "Granstuveien 21c",
+        "year": 2020,
+        "system": "Majorlift",
+        "antall": 2,
+        "url": "granstuveien-21c",
+        "parkingSpaces": 4,
+        "imageAmount": 12
+    },
+    {
+        "address": "vetlandsveien 90",
+        "year": 2021,
+        "system": "Majorlift",
+        "antall": 1,
+        "url": "vetlandsveien-90",
+        "parkingSpaces": 2
+    },
+    {
+        "address": "Bernt knudsens vei 57f",
+        "year": 2021,
+        "system": "Majorlift",
+        "antall": 2,
+        "url": "Bernt-knudsens-vei-57f",
+        "parkingSpaces": 4
+    },
+    {
+        "address": "bueveien 5",
+        "year": 2021,
+        "system": "Majorlift",
+        "antall": 1,
+        "url": "bueveien-5",
+        "parkingSpaces": 2
+    },
+    {
+        "address": "Hoffsjef Løvenskiolds vei 49",
+        "year": 2022,
+        "system": "Sublift",
+        "antall": 2,
+        "url": "Hoffsjef-Løvenskiolds-vei-49",
+        "parkingSpaces": 4
+    }
+]

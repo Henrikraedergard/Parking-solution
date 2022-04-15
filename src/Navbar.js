@@ -34,7 +34,7 @@ function Navbar() {
       <Ul>
         <Link to="/">Hjem</Link>
         <Link to="/products">Products</Link>
-        <Link to="">Projects</Link>
+        <Link to="/projects">Projects</Link>
         <Link to="/askndoai">Error</Link>
       </Ul>
     </Nav>
