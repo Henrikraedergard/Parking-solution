@@ -7,11 +7,11 @@ import LongText from "../Components/Home/LongText"
 
 function Home() {
     return (
-        <main>
+        <>
             <Landing />
             <InfoCards />
             <LongText />
-        </main>
+        </>
     )
 }
 

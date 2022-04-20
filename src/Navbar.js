@@ -1,5 +1,7 @@
-import { Link } from "react-router-dom";
+import React from 'react'
+import { NavLink } from "react-router-dom";
 import styled from 'styled-components';
+import logo from './logo.svg'
 
 // Styling
 
@@ -21,21 +23,35 @@ const Ul = styled.ul`
 
 const Logo = styled.img`
   height: 35px;
-  margin-left: 35px;
   cursor: pointer;
 `
 
+const active = {
+  color: "rgb(250, 50, 50)",
+  borderBottom: "2px solid rgb(250, 50, 50)"
+}
+
+const inactive = {
+  color: "rgb(75, 75, 75)"
+}
+
 // Layout
+
+
 
 function Navbar() {
   return (
     <Nav>
-      <Link to="/"><Logo src={"media/logos/PS-Logo-Ikon.svg"} alt={"Logo"} /></Link>
+      <NavLink to="/"><Logo src={logo} alt={"Logo"} /></NavLink>
       <Ul>
-        <Link to="/">Hjem</Link>
-        <Link to="/products">Products</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/askndoai">Error</Link>
+        <NavLink to="/" style={ ({ isActive }) =>
+          isActive ? active : inactive}>Hjem</NavLink>
+        <NavLink to="/products" style={ ({ isActive }) =>
+          isActive ? active : inactive}>Produkter</NavLink>
+        <NavLink to="/projects" style={ ({ isActive }) =>
+          isActive ? active : inactive}>Prosjekter</NavLink>
+        <NavLink to="/askndoai" style={ ({ isActive }) =>
+          isActive ? active : inactive}>Error</NavLink>
       </Ul>
     </Nav>
   )

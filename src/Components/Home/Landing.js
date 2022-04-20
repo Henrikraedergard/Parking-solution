@@ -36,7 +36,7 @@ function Landing() {
     let navigate = useNavigate()
     return (
         <Section>
-            <Img src="media/other/Parking-img1-new.png" alt="Bilde av bilheis" />
+            <Img src="./media/other/Parking-img1-new.png" alt="Bilde av bilheis" />
             <Container>
                 <h1>Fremtidens parkering</h1>
                 <Button onClick={() => navigate("/products")}>Se våre løsninger</Button>

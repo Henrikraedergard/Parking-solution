@@ -67,7 +67,7 @@ function Lists() {
                         AllProjects
                             .filter(project => project.year === 2022)
                             .map(project =>
-                                <Li onClick={() => navigate("/project/" + project.url)}>
+                                <Li key={project.url} onClick={() => navigate("/project/" + project.url)}>
                                     <Img src="media/models/optilift/image-1-large.jpg" />
                                     <Name>{project.address}</Name>
                                     <Text>{project.system}</Text>
@@ -84,7 +84,7 @@ function Lists() {
                         AllProjects
                             .filter(project => project.year === 2021)
                             .map(project =>
-                                <Li onClick={() => navigate("/project/" + project.url)}>
+                                <Li key={project.url} onClick={() => navigate("/project/" + project.url)}>
                                     <Img src="media/models/optilift/image-1-large.jpg" />
                                     <Name>{project.address}</Name>
                                     <Text>{project.system}</Text>
@@ -101,7 +101,7 @@ function Lists() {
                         AllProjects
                             .filter(project => project.year === 2020)
                             .map(project =>
-                                <Li onClick={() => navigate("/project/" + project.url)}>
+                                <Li key={project.url} onClick={() => navigate("/project/" + project.url)}>
                                     <Img src="media/models/optilift/image-1-large.jpg" />
                                     <Name>{project.address}</Name>
                                     <Text>{project.system}</Text>
@@ -118,7 +118,7 @@ function Lists() {
                         AllProjects
                             .filter(project => project.year === 2019)
                             .map(project =>
-                                <Li onClick={() => navigate("/project/" + project.url)}>
+                                <Li key={project.url} onClick={() => navigate("/project/" + project.url)}>
                                     <Img src="media/models/optilift/image-1-large.jpg" />
                                     <Name>{project.address}</Name>
                                     <Text>{project.system}</Text>

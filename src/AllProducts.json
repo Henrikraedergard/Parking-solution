@@ -1,4 +1,5 @@
 [{
+    "ID": 1,
     "name": "Optilift",
     "size": "Liten",
     "url": "optilift",
@@ -19,6 +20,7 @@
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc.",
         "Separat hydraulikk"]
 }, {
+    "ID": 2,
     "name": "Majorlift",
     "size": "Liten",
     "url": "majorlift",
@@ -44,6 +46,7 @@
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc.",
         "Separat hydraulikkaggregat, elektrisk og styringssystem for hver enhet."]
 }, {
+    "ID": 3,
     "name": "Major Trio",
     "size": "Medium",
     "url": "majortrio",
@@ -64,6 +67,7 @@
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc.",
         "Separat hydraulikkaggregat, elektrisk og styringssystem for hver enhet."]
 }, {
+    "ID": 4,
     "name": "Multilevel",
     "size": "Medium",
     "url": "multilevel",
@@ -85,6 +89,7 @@
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc.",
         "Separat hydraulikkaggregat, elektrisk og styringssystem for hver enhet."]
 }, {
+    "ID": 5,
     "name": "Idealift",
     "size": "Liten",
     "url": "idealift",
@@ -105,6 +110,7 @@
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc.",
         "Separat hydraulikkaggregat, elektrisk og styringssystem for hver enhet."]
 }, {
+    "ID": 6,
     "name": "Idealow",
     "size": "Liten",
     "url": "idealow",
@@ -121,6 +127,7 @@
 
 
 }, {
+    "ID": 7,
     "name": "Sublift",
     "size": "Liten",
     "url": "sublift",
@@ -139,6 +146,7 @@
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc.",
         "Separat hydraulikkaggregat, elektrisk og styringssystem for hver enhet."]
 }, {
+    "ID": 8,
     "name": "Practicapark",
     "size": "Liten",
     "url": "practicapark",
@@ -162,6 +170,7 @@
         "Utenpåliggende belegg.",
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc."]
 }, {
+    "ID": 9,
     "name": "Practicatrio",
     "size": "Medium",
     "url": "practicatrio",
@@ -187,6 +196,7 @@
         "fasade.",
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc."]
 }, {
+    "ID": 10,
     "name": "Puzzle lift",
     "size": "Stor",
     "url": "puzzlelift",
@@ -207,6 +217,7 @@
         "Utenpåliggende fasade.",
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc."]
 }, {
+    "ID": 11,
     "name": "Ringopark",
     "size": "Stor",
     "url": "ringopark",
@@ -224,6 +235,7 @@
         "Fasade",
         "Tak"]
 }, {
+    "ID": 12,
     "name": "Layerpark",
     "size": "Stor",
     "url": "layerpark",
@@ -246,6 +258,7 @@
         "Brannsikkerhetssystem.",
         "Betalingssystem. "]
 }, {
+    "ID": 13,
     "name": "Skypark SW",
     "size": "Stor",
     "url": "skyparkSW",
@@ -266,6 +279,7 @@
     "Extra": ["Spesielt design for SUV. Enkel inngang / utgang og manøvrering på smale steder med Turntable.",
         "Utenpåliggende fasade, brannsikkerhetssystem, betalingssystem."]
 }, {
+    "ID": 14,
     "name": "Skypark LW",
     "size": "Stor",
     "url": "skyparkLW",
@@ -287,6 +301,7 @@
         "Brannsikkerhetssystem.",
         "Betalingssystem."]
 }, {
+    "ID": 15,
     "name": "Parkcenter",
     "size": "Stor",
     "url": "parkcenter",
@@ -307,6 +322,7 @@
     "standardEquipment": [],
     "Extra": []
 }, {
+    "ID": 16,
     "name": "Axispark",
     "size": "Stor",
     "url": "axispark",
@@ -330,6 +346,7 @@
         "Brannsikkerhetssystem.",
         "Betalingssystem. "]
 }, {
+    "ID": 17,
     "name": "slider",
     "size": "Other",
     "url": "slider",
@@ -351,6 +368,7 @@
         "Hørbart og opplyst advarselssystem.",
         "Produksjonsmulighet for spesielle krav; mer løfteevne eller bredere plattformer etc."]
 }, {
+    "ID": 18,
     "name": "Turntable",
     "size": "Other",
     "url": "turntable",
@@ -365,6 +383,7 @@
     "standardEquipment": [],
     "Extra": []
 }, {
+    "ID": 19,
     "name": "Car elevator",
     "size": "Other",
     "url": "carelevator",

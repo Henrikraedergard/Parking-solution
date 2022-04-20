@@ -33,18 +33,20 @@ const Button = styled.button`
     align-items: center;
 `
 
-const Option = styled.button`
-    display: none;
-    padding: 10px;
-    width: 200px;
-    cursor: pointer;
-    text-align: center;
-`
-
 const OptionList = styled.ul`
     display: none;
     flex-direction: column;
+
 `
+
+let visible = false
+
+function showOptions() {
+    let optionsList = document.getElementById("option-list");
+    optionsList.style.display = visible ? "none" : "flex";
+
+    visible = !visible
+}
 
 function Banner() {
     return (
@@ -65,14 +67,7 @@ function Banner() {
 }
 
 
-let visible = false
 
-function showOptions() {
-    let optionsList = document.getElementById("option-list");
-    optionsList.style.display = visible ? "none" : "flex";
-
-    visible = !visible
-}
 
 
 

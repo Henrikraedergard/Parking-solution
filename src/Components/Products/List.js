@@ -50,7 +50,7 @@ function List() {
     return (
         <Ul>
             {AllProducts.map(product =>
-                <Li onClick={() => navigate("/product/" + product.url)}>
+                <Li onClick={() => navigate("/product/" + product.url)} key={product.ID}>
                     <Img src={`media/models/${product.url}/image-1-large.jpg`} />
                     <Name>{product.name}</Name>
                     <Text>{product.size}</Text>
