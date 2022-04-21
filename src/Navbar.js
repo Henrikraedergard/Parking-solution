@@ -44,14 +44,14 @@ function Navbar() {
     <Nav>
       <NavLink to="/"><Logo src={logo} alt={"Logo"} /></NavLink>
       <Ul>
-        <NavLink to="/" style={ ({ isActive }) =>
+        <NavLink to="/" style={({ isActive }) =>
           isActive ? active : inactive}>Hjem</NavLink>
-        <NavLink to="/products" style={ ({ isActive }) =>
+        <NavLink to="/products" style={({ isActive }) =>
           isActive ? active : inactive}>Produkter</NavLink>
-        <NavLink to="/projects" style={ ({ isActive }) =>
+        <NavLink to="/projects" style={({ isActive }) =>
           isActive ? active : inactive}>Prosjekter</NavLink>
-        <NavLink to="/askndoai" style={ ({ isActive }) =>
-          isActive ? active : inactive}>Error</NavLink>
+        <NavLink to="/error" style={({ isActive }) =>
+          isActive ? active : inactive}>Kontakt oss</NavLink>
       </Ul>
     </Nav>
   )

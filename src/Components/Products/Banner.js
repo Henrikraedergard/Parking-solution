@@ -1,12 +1,16 @@
 import React from 'react'
 import styled from 'styled-components';
+import List from './List.js'
 
 const Container = styled.div`
+    position: absolute;
     width: 70%;
-    margin: 0px auto;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
+    z-index: 2;
 `
 
 const Title = styled.h1`
@@ -23,6 +27,7 @@ const Ul = styled.ul`
     border-radius: 5px;
     font-size: 1.2em;
     height: 90%;
+    background-color: white;
 `
 
 const Button = styled.button`
@@ -36,7 +41,6 @@ const Button = styled.button`
 const OptionList = styled.ul`
     display: none;
     flex-direction: column;
-
 `
 
 let visible = false
@@ -52,20 +56,19 @@ function Banner() {
     return (
         <Container>
             <Title>Alle produkter</Title>
-            <Ul>
+            {/* <Ul>
                 <Button onClick={showOptions}>Filter</Button>
                 <OptionList id="option-list">
-                    <Button>Alle systemer</Button>
+                    <Button onClick={List}>Alle systemer</Button>
                     <Button>Små systemer</Button>
                     <Button>Mellomstore systemer</Button>
                     <Button>Store systemer</Button>
-                    <Button>Andre systemer</Button>
+                    <Button onClick={List}>Andre systemer</Button>
                 </OptionList>
-            </Ul>
+            </Ul> */}
         </Container>
     )
 }
-
 
 
 

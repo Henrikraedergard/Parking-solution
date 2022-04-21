@@ -56,6 +56,12 @@ const Text = styled.p`
     font-size: 1.3em
 `
 
+const TextContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+`
+
 function Lists() {
     let navigate = useNavigate()
     return (
@@ -70,15 +76,17 @@ function Lists() {
                                 <Li key={project.url} onClick={() => navigate("/project/" + project.url)}>
                                     <Img src="media/models/optilift/image-1-large.jpg" />
                                     <Name>{project.address}</Name>
-                                    <Text>{project.system}</Text>
-                                    <Text>{project.parkingSpaces}</Text>
+                                    <TextContainer>
+                                        <Text>{project.system}</Text>
+                                        <Text>{project.parkingSpaces} biler</Text>
+                                    </TextContainer>
                                 </Li>
                             )
                     }
                 </Ul>
             </Container>
             <Container>
-                <Title>2022</Title>
+                <Title>2021</Title>
                 <Ul>
                     {
                         AllProjects
@@ -87,15 +95,17 @@ function Lists() {
                                 <Li key={project.url} onClick={() => navigate("/project/" + project.url)}>
                                     <Img src="media/models/optilift/image-1-large.jpg" />
                                     <Name>{project.address}</Name>
-                                    <Text>{project.system}</Text>
-                                    <Text>{project.parkingSpaces}</Text>
+                                    <TextContainer>
+                                        <Text>{project.system}</Text>
+                                        <Text>{project.parkingSpaces} biler</Text>
+                                    </TextContainer>
                                 </Li>
                             )
                     }
                 </Ul>
             </Container>
             <Container>
-                <Title>2022</Title>
+                <Title>2020</Title>
                 <Ul>
                     {
                         AllProjects
@@ -104,15 +114,17 @@ function Lists() {
                                 <Li key={project.url} onClick={() => navigate("/project/" + project.url)}>
                                     <Img src="media/models/optilift/image-1-large.jpg" />
                                     <Name>{project.address}</Name>
-                                    <Text>{project.system}</Text>
-                                    <Text>{project.parkingSpaces}</Text>
+                                    <TextContainer>
+                                        <Text>{project.system}</Text>
+                                        <Text>{project.parkingSpaces} biler</Text>
+                                    </TextContainer>
                                 </Li>
                             )
                     }
                 </Ul>
             </Container>
             <Container>
-                <Title>2022</Title>
+                <Title>2019</Title>
                 <Ul>
                     {
                         AllProjects
@@ -121,8 +133,10 @@ function Lists() {
                                 <Li key={project.url} onClick={() => navigate("/project/" + project.url)}>
                                     <Img src="media/models/optilift/image-1-large.jpg" />
                                     <Name>{project.address}</Name>
-                                    <Text>{project.system}</Text>
-                                    <Text>{project.parkingSpaces}</Text>
+                                    <TextContainer>
+                                        <Text>{project.system}</Text>
+                                        <Text>{project.parkingSpaces} biler</Text>
+                                    </TextContainer>
                                 </Li>
                             )
                     }

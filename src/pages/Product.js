@@ -6,6 +6,7 @@ import Error from '../pages/Error'
 
 import Banner from '../Components/Product/Banner'
 import LongText from '../Components/Product/LongText';
+import Cataloge from '../Components/Product/Cataloge';
 
 function Product() {
     let { id } = useParams()
@@ -18,6 +19,7 @@ function Product() {
                 <>
                     <Banner product={AllProducts[i]}/>
                     <LongText product={AllProducts[i]} />
+                    <Cataloge product={AllProducts[i]}/>
                 </>
             )
         }

@@ -4,13 +4,14 @@ import Banner from '../Components/Products/Banner'
 import List from '../Components/Products/List'
 
 function Products() {
+    
+
     return (
         <>
             <Banner />
-            <List />
+            <List filter = "" />
         </>
     )
-
 }
 
 

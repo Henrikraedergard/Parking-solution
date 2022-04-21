@@ -14,7 +14,7 @@ function Project() {
             showProject = true
             return (
                 <>
-                    <Banner product={AllProjects[i]}/>
+                    <Banner project={AllProjects[i]}/>
                 </>
             )
         }

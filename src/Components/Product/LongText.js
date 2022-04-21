@@ -1,29 +1,70 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 5px;
+    width: 1000px;
+    margin: 75px 50px;
+`
+
+const Title = styled.h2`
+    font-size: 1.6em;
+    color: rgb(250, 50, 50);
+`
+
+const Ul = styled.ul`
+    padding-left: 25px;
+    font-size: 1.3em;
+`
+
+const Li = styled.li`
+list-style: outside "-    ";
+    font-size: 1em;
+`
 
 function LongText(product) {
     return (
-        <div>
+        <Container>
             <div>
-                <h2>Teknisk spesifikasjon</h2>
-                <ul>
+                <Title>Teknisk spesifikasjon</Title>
+                <Ul>
                     {
                         product.product.technicSpecification.map(sentence => (
-                        <li key={sentence[0] + sentence[8]}> 
-                            { sentence } 
-                        </li> 
+                            <Li key={sentence[0] + sentence[8]}>
+                                { sentence}
+                            </Li>
                         ))
                     }
-                </ul>
+                </Ul>
             </div>
             <div>
-                <h2>Standar utstyr</h2>
-                <ul></ul>
+                <Title>Standar utstyr</Title>
+                <Ul>
+                    {
+                        product.product.standardEquipment.map(sentence => (
+                            <Li key={sentence[0] + sentence[8]}>
+                                { sentence}
+                            </Li>
+                        ))
+                    }
+                </Ul>
             </div>
             <div>
-                <h2>Tilleggs utstyr</h2>
-                <ul></ul>
+                <Title>Tilleggs utstyr</Title>
+                <Ul>
+                    {
+                        product.product.extra.map(sentence => (
+                            <Li key={sentence[0] + sentence[8]}>
+                                { sentence}
+                            </Li>
+                        ))
+                    }
+                </Ul>
             </div>
-        </div>
+        </Container>
     )
 }
 
