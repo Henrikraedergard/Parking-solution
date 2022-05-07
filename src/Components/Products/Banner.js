@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import List from './List.js'
 
 const Container = styled.div`
     position: absolute;
@@ -11,12 +10,21 @@ const Container = styled.div`
     display: flex;
     justify-content: space-between;
     z-index: 2;
+
+    @media only screen and (max-width: 950px) {
+        width: 90%;
+    }
 `
 
 const Title = styled.h1`
     display: inline;
+    width: 70%
     font-size: 3em;
     color: rgb(250, 50, 50);
+
+    @media only screen and (max-width: 950px) {
+        font-size: 2.2em;
+    }
 `
 
 const Ul = styled.ul`

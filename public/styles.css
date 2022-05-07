@@ -26,6 +26,12 @@ button, a {
     cursor: pointer;
 }
 
+svg:hover {
+    fill: red;
+}
+
+
+
 /* Navbar */
 
 

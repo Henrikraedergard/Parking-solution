@@ -1,51 +1,74 @@
 [
     {
         "address": "Vardeveien 55b",
+        "state": "Oslo",
         "year": 2019,
         "system": "Sublift",
+        "systemUrl": "sublift",
         "antall": 2,
-        "url": "vardeveien-55-b",
-        "parkingSpaces": 4
+        "url": "vardeveien-55b",
+        "parkingSpaces": 4,
+        "text": "",
+        "status": "Satt på vent"
     },
     {
         "address": "Granstuveien 21c",
+        "state": "Oslo",
         "year": 2020,
         "system": "Majorlift",
+        "systemUrl": "majorlift",
         "antall": 2,
         "url": "granstuveien-21c",
         "parkingSpaces": 4,
-        "imageAmount": 12
+        "text": ["Med dyre kvadratmeterpriser er det om å gjøre å få så mye ut av det tilgjengelige arealet som mulig.", "Valget falt på Majorlift. Denne gjør det mulig å parkere bilene over hverandre, uten å kreve mye plass til installasjon. Systemet opereres enkelt med en nøkkel og gir frihet til å bruke det overflødige arealet til andre ting."],
+        "status": "Ferdig"
     },
     {
         "address": "vetlandsveien 90",
+        "state": "Oslo",
         "year": 2021,
         "system": "Majorlift",
+        "systemUrl": "majorlift",
         "antall": 1,
         "url": "vetlandsveien-90",
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "text": ["Med dyre kvadratmeterpriser er det om å gjøre å få så mye ut av det tilgjengelige arealet som mulig.", "Valget falt på Majorlift. Denne gjør det mulig å parkere bilene over hverandre, uten å kreve mye plass til installasjon. Systemet opereres enkelt med en nøkkel og gir frihet til å bruke det overflødige arealet til andre ting."],
+        "status": "Ferdig"
     },
     {
         "address": "Bernt knudsens vei 57f",
+        "state": "Oslo",
         "year": 2021,
         "system": "Majorlift",
+        "systemUrl": "majorlift",
         "antall": 2,
-        "url": "Bernt-knudsens-vei-57f",
-        "parkingSpaces": 4
+        "url": "bernt-knudsen-vei-57f",
+        "parkingSpaces": 4,
+        "text": ["Med dyre kvadratmeterpriser er det om å gjøre å få så mye ut av det tilgjengelige arealet som mulig.", "Valget falt på Majorlift. Denne gjør det mulig å parkere bilene over hverandre, uten å kreve mye plass til installasjon. Systemet opereres enkelt med en nøkkel og gir frihet til å bruke det overflødige arealet til andre ting."],
+        "status": "Ferdig"
     },
     {
         "address": "bueveien 5",
+        "state": "Oslo",
         "year": 2021,
         "system": "Majorlift",
+        "systemUrl": "majorlift",
         "antall": 1,
         "url": "bueveien-5",
-        "parkingSpaces": 2
+        "parkingSpaces": 2,
+        "text": ["Med dyre kvadratmeterpriser er det om å gjøre å få så mye ut av det tilgjengelige arealet som mulig.", "Valget falt på Majorlift. Denne gjør det mulig å parkere bilene over hverandre, uten å kreve mye plass til installasjon. Systemet opereres enkelt med en nøkkel og gir frihet til å bruke det overflødige arealet til andre ting."],
+        "status": "Ferdig"
     },
     {
         "address": "Hoffsjef Løvenskiolds vei 49",
+        "state": "Oslo",
         "year": 2022,
         "system": "Sublift",
+        "systemUrl": "sublift",
         "antall": 2,
-        "url": "Hoffsjef-Løvenskiolds-vei-49",
-        "parkingSpaces": 4
+        "url": "hoffsjef-løvenskiolds-vei-49",
+        "parkingSpaces": 4,
+        "text": "",
+        "status": "Pågående"
     }
 ]

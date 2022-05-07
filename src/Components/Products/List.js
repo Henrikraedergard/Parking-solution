@@ -11,7 +11,6 @@ const Ul = styled.ul`
     gap: 25px;
     width: 90%;
     margin: 0px auto;
-    padding-bottom: 200px;
     margin-top: 180px;
 `
 
@@ -25,7 +24,11 @@ const Li = styled.li`
     padding-bottom: 30px;
 
     &:hover {
-        transform: scale(1.06)
+        transform: scale(1.06);
+
+        @media only screen and (max-width: 950px) {
+            transform: scale(1);
+        }
     }
 `
 
@@ -38,6 +41,8 @@ const Img = styled.img`
 const Name = styled.h3`
     color: rgb(250, 50, 50);
     font-size: 1.8em;
+    margin-left: 20px;
+    margin-top: 10px;
 `
 
 const Size = styled.p`
@@ -49,6 +54,7 @@ const Size = styled.p`
 const Biler = styled.p`
     font-size: 1.3em;
     margin-top: 10px;
+    text-align: end;
 `
 
 const Avhengig = styled.p`
@@ -59,45 +65,31 @@ const Avhengig = styled.p`
 `
 
 const Div = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
 `
 
-function List(filter) {
-
+function List() {
     let navigate = useNavigate()
-    if (filter.filter === "") {
-        return (
-            <Ul id="list">
-                {AllProducts.map(product =>
-                    <Li onClick={() => navigate("/product/" + product.url)} key={product.ID}>
-                        <Img src={`media/models/${product.url}/image-1-large.jpg`} />
-                        <Div>
-                            <Name>{product.name}</Name>
-                            <Size>{product.size}</Size>
-                            <Biler>{product.parkingSpaces} biler</Biler>
-                            <Avhengig>{product.avhengig ? "Avhengig" : "Uavhengig"}</Avhengig>
-                        </Div>
-                    </Li>
-                )}
-            </Ul>
-        )
-    } else {
-        let filterdList = AllProducts.filter(e => e.size === filter.filter)
-        return (
-            <Ul id="list">
-                {filterdList.map(product =>
-                    <Li onClick={() => navigate("/product/" + product.url)} key={product.ID}>
-                        <Img src={`media/models/${product.url}/image-1-large.jpg`} />
+    return (
+        <Ul id="list">
+            {AllProducts.map(product =>
+                <Li onClick={() => { 
+                    window.scrollTo(0, 0);
+                    navigate("/produkt/" + product.url)}
+                    } key={product.ID}>
+                    <Img src={`media/models/${product.url}/image-1-small.jpg`} />
+                    <Div>
                         <Name>{product.name}</Name>
-                        <Size>{product.size}</Size>
-                        <Biler>{product.parkingSpaces} biler</Biler>
-                        <Avhengig>{product.avhengig ? "Ja" : "nei"}</Avhengig>
-                    </Li>
-                )}
-            </Ul>
-        )
-    }
+                        {/* <Size>{product.size}</Size> */}
+                        {/* <Biler>Fra {product.parkingSpaces} biler og opp</Biler> */}
+                        {/* <Avhengig>{product.avhengig ? "Avhengig" : "Uavhengig"}</Avhengig> */}
+                    </Div>
+                </Li>
+            )}
+        </Ul>
+    )
+
 }
 
 export default List;

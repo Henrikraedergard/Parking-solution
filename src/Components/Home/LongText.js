@@ -24,11 +24,18 @@ const Title = styled.h1`
     font-size: 2em;
     text-align: center;
     color: rgb(250, 50, 50);
+    @media only screen and (max-width: 950px) {
+        font-size: 1.3em;
+    }
 `
 
 const Text = styled.p`
     font-size: 1.3em;
     text-align: center;
+
+    @media only screen and (max-width: 950px) {
+        font-size: 1em;
+    }
 `
 
 function LongText() {

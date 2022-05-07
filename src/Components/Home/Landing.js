@@ -14,6 +14,12 @@ const Img = styled.img`
     top: -10px;
     left: 50px;
     width: 80%;
+
+    @media only screen and (max-width: 950px) {
+        margin: 30px auto;
+        left: 0px;
+        width: 100%;
+    }
 `
 
 const Container = styled.div`
@@ -23,6 +29,13 @@ const Container = styled.div`
     left: 60vw;
     padding: 10px;
     background: linear-gradient(to right,rgb(251, 251, 251), white);
+
+    @media only screen and (max-width: 950px) {
+        position: static;
+        text-align: center;
+        margin-top: 0px;
+        background: none;
+    }
 `
 
 const Button = styled.button`
@@ -36,10 +49,13 @@ function Landing() {
     let navigate = useNavigate()
     return (
         <Section>
-            <Img src="./media/other/Parking-img1-new.png" alt="Bilde av bilheis" />
+            <Img src="./media/other/landing1.png" alt="Bilde av bilheis" />
             <Container>
                 <h1>Fremtidens parkering</h1>
-                <Button onClick={() => navigate("/products")}>Se våre løsninger</Button>
+                <Button onClick={() => {
+                    window.scrollTo(0, 0);
+                    navigate("/produkter")
+                }}>Se våre løsninger</Button>
             </Container>
         </Section>
     )

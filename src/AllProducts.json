@@ -163,7 +163,7 @@
         "name": "Sublift",
         "size": "S",
         "url": "sublift",
-        "parkingSpaces": "2-6",
+        "parkingSpaces": "1 - 6",
         "avhengig": "false",
         "shortText": "Parkering under bakken.",
         "technicSpecification": [
@@ -281,11 +281,11 @@
         "name": "Ringopark",
         "size": "L",
         "url": "ringopark",
-        "parkingSpaces": "6-12",
+        "parkingSpaces": "6",
         "avhengig": "false",
-        "shortText": "Inntil 12 biler på arealet av 2 parkeringsplasser",
+        "shortText": "Inntil 16 biler på arealet av 2 parkeringsplasser",
         "technicSpecification": [
-            "Parkering av 6 - 8 - 10 - 12 biler på fotavtrykk på mindre enn 2 biler.",
+            "Parkering av 6 - 8 - 10 - 12 - 14 - 16 biler på fotavtrykk mindre enn 2 biler.",
             "Kjøretøy parker på spor og system roterer høyre eller venstre side for lasting eller lossing av biler.",
             "Systemet beregner korteste rute for å levere bil, og roterer deretter høyre eller venstre side.",
             "Enkel installasjon. Den fungerer effektivt med sterk og holdbar struktur.",
@@ -296,7 +296,7 @@
             "Enkel betjening med strekkode, kontaktløs kontroll eller mobilapp."
         ],
         "extra": [
-            "Spesiell design for SUV med kapasiteten 6-8-10 kjøretøy.",
+            "Spesiell design for SUV med kapasiteten 6 - 8 - 10 kjøretøy.",
             "Fasade",
             "Tak"
         ]

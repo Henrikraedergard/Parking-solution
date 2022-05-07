@@ -1,45 +1,46 @@
 import React from 'react'
 import styled from 'styled-components'
-import Product from '../../pages/Product'
 
 const Container = styled.div`
-    padding: 15px;
-    border-radius: 5px;
-    margin: 75px 50px;
-    overflow: hidden;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    @media only screen and (max-width: 950px) {
+        flex-direction: column;
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 90px;
+        text-align: center;
+    }
 `
 
-const Title = styled.h2`
-    font-size: 2em;
-`
-
-const A = styled.p`
+const Button = styled.a`
     cursor: pointer;
     border: 2px solid rgb(250, 50, 50);
     padding: 10px;
     border-radius: 3px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     display: inline-block;
     color: rgb(250, 50, 50);
-`
+    transition: 150ms;
 
-const Download = styled.a`
-    cursor: pointer;
-    border: 2px solid rgb(250, 50, 50);
-    padding: 10px;
-    border-radius: 3px;
-    font-size: 1.2em;
-    display: inline-block;
-    color: rgb(250, 50, 50);
+    &:hover {
+        transform: translateY(-4px);
+        background-color: rgb(250, 50, 50);
+        color: white;
+        transition: 150ms;
+    }
+
+    @media only screen and (max-width: 950px) {
+        font-size: 1em;
+    }
 `
 
 function Cataloge(product) {
-    console.log(product.product.url);
     return (
         <Container>
-            <Title>Tekniske illustrasjoner</Title>
-            <A onClick={() => openInNewTab(`../../media/models/${product.product.url}/data-sheet.pdf`)}>Åpne katalog for {product.product.name}</A>
-            <Download href={`../../media/models/${product.product.url}/data-sheet.pdf`} download={`${product.product.name}.pdf`}>Last ned katalog for {product.product.name}</Download>
+            <Button onClick={() => openInNewTab(`../../media/models/${product.product.url}/data-sheet.pdf`)}>Åpne data ark for {product.product.name} i ny fane</Button>
+            <Button href={`../../media/models/${product.product.url}/data-sheet.pdf`} download={`${product.product.name}.pdf`}>Last ned data ark for {product.product.name}</Button>
         </Container>
     )
 }

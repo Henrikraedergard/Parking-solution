@@ -1,0 +1,135 @@
+[
+    {
+        "ID": 0,
+        "name": "Optilift",
+        "url": "optilift",
+        "info": ["EgenNokkel", "DobbleParkeringsplassen", "LavTakhoyde"],
+        "extras": [6, 3, 2, 4, 16 ]
+    },
+    {
+        "ID": 1,
+        "name": "Majorlift",
+        "url": "majorlift",
+        "info": ["DobbleParkeringsplassen", "InneOgUte", "EgenNokkel", "SuvOgSedan"],
+        "extras": [6, 1, 2, 3, 4, 5]
+    },
+    {
+        "ID": 2,
+        "name": "Major Trio",
+        "url": "majortrio",
+        "info": ["TripleParkeringsplassen", "EgenNokkel"],
+        "extras": [6, 2, 3, 4, 5]
+    },
+    {
+        "ID": 3,
+        "name": "Multilevel",
+        "url": "multilevel",
+        "info": [],
+        "extras": [6, 1, 15, 2, 3, 4, 5]
+    },
+    {
+        "ID": 4,
+        "name": "Idealift",
+        "url": "idealift",
+        "info": [],
+        "extras": [0, 2, 4, 5]
+    },
+    {
+        "ID": 5,
+        "name": "Idealow",
+        "url": "idealow",
+        "info": [],
+        "extras": []
+    },
+    {
+        "ID": 6,
+        "name": "Sublift",
+        "url": "sublift",
+        "info": [],
+        "extras": [0, 2, 4, 5]
+    },
+    {
+        "ID": 7,
+        "name": "Practicapark",
+        "url": "practicapark",
+        "info": [],
+        "extras": [0, 2, 7, 8, 9, 4]
+    },
+    {
+        "ID": 8,
+        "name": "Practicatrio",
+        "url": "practicatrio",
+        "info": [],
+        "extras": [0, 2, 7, 8, 15, 4]
+    },
+    {
+        "ID": 9,
+        "name": "Puzzle lift",
+        "url": "puzzlelift",
+        "info": [],
+        "extras": [0, 2, 7, 8, 15, 4]
+    },
+    {
+        "ID": 10,
+        "name": "Ringopark",
+        "url": "ringopark",
+        "info": [],
+        "extras": [11, 15, 1]
+    },
+    {
+        "ID": 11,
+        "name": "Layerpark",
+        "url": "layerpark",
+        "info": [],
+        "extras": [11, 12, 13, 14]
+    },
+    {
+        "ID": 12,
+        "name": "Skypark SW",
+        "url": "",
+        "info": [],
+        "extras": [11, 15, 13, 14]
+    },
+    {
+        "ID": 13,
+        "name": "Skypark LW",
+        "url": "skyparkLW",
+        "info": [],
+        "extras": [11, 13, 14]
+    },
+    {
+        "ID": 14,
+        "name": "Parkcenter",
+        "url": "parkcenter",
+        "info": [],
+        "extras": []
+    },
+    {
+        "ID": 15,
+        "name": "Axispark",
+        "url": "axispark",
+        "info": [],
+        "extras": [11, 12, 9, 13, 14]
+    },
+    {
+        "ID": 16,
+        "name": "Slider",
+        "url": "slider",
+        "info": [],
+        "extras": [0, 2, 4]
+    },
+    {
+        "ID": 17,
+        "name": 12,
+        "url": 12,
+        "info": [],
+        "extras": []
+    },
+    {
+        "ID": 18,
+        "name": "Car elevator",
+        "url": "carelevator",
+        "info": [],
+        "extras": []
+    }
+]

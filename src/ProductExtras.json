@@ -1,0 +1,104 @@
+[
+    {
+        "ID": 0,
+        "name": "Catwalks",
+        "url": "Catwalks",
+        "description": ""
+    },
+    {
+        "ID": 1,
+        "name": "Takoverbygg",
+        "url": "Takoverbygg",
+        "description": "Spesialdesignet takoverbygg kan være veldig nyttig for å beskytte bilene fra vannskader."
+    },
+    {
+        "ID": 2,
+        "name": "Advarselssystem",
+        "url": "Advarselssystem",
+        "description": ""
+    },
+    {
+        "ID": 3,
+        "name": "Kjøretøysensor",
+        "url": "Kjøretøysensor",
+        "description": ""
+    },
+    {
+        "ID": 4,
+        "name": "Økt bredde eller løfte-evne",
+        "url": "BreddeEllerLofteevne",
+        "description": ""
+    },
+    {
+        "ID": 5,
+        "name": "Separat hydraulikkaggregat, elektrisk og stryringssystem",
+        "url": "SeparatHES",
+        "description": ""
+    },
+    {
+        "ID": 6,
+        "name": "Varmgalvanisert ståldeler",
+        "url": "Varmgalvanisertstaal",
+        "description": ""
+    },
+    {
+        "ID": 7,
+        "name": "Automatisk port",
+        "url": "AutomatiskPort",
+        "description": ""
+    },
+    {
+        "ID": 8,
+        "name": "Takbelegg",
+        "url": "Takbelegg",
+        "description": ""
+    },
+    {
+        "ID": 9,
+        "name": "Utenpåliggende belegg",
+        "url": "UtenpaaliggendeBelegg",
+        "description": ""
+    },
+    {
+        "ID": 10,
+        "name": "Fasade",
+        "url": "Fasade",
+        "description": ""
+    },
+    {
+        "ID": 11,
+        "name": "Spesielt design for SUV.",
+        "url": "DesignSUV",
+        "description": ""
+    },
+    {
+        "ID": 12,
+        "name": "Turntable",
+        "url": "Turntable",
+        "description": ""
+    },
+    {
+        "ID": 13,
+        "name": "Brannsikkerhetssystem",
+        "url": "Brannsikkerhetssystem",
+        "description": ""
+    },
+    {
+        "ID": 14,
+        "name": "Betalingssystem",
+        "url": "Betalingssystem",
+        "description": ""
+    },
+    {
+        "ID": 15,
+        "name": "Utvendig Fasade",
+        "url": "Utvendigfasade",
+        "description": ""
+    },
+    {
+        "ID": 16,
+        "name": "Separat Hydraulikk",
+        "url": "SeparatH",
+        "description": ""
+    }
+]

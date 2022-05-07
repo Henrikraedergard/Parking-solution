@@ -13,6 +13,10 @@ const Container = styled.div`
     margin: 0px auto;
     width: fit-content;
     gap: 150px;
+
+    @media only screen and (max-width: 950px) {
+        grid-template-columns: 1fr;
+    }
 `
 
 const Title = styled.h2`
@@ -37,7 +41,7 @@ function InfoCards() {
                 </div>
                 <div>
                     <Title>Teknologisk sikkerhet</Title>
-                    <p>Bilen blir automatisk parkert</p>
+                    <Text>Bilen blir automatisk parkert</Text>
                 </div>
                 <div>
                     <Title>Hurtig byggetid</Title>
